@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# echo "${BASH_VERSION}"
+
+printf -v date '%(%F)T' -1
+
+cd ~/Desktop/Notes && code ${date}_Notes.txt
